@@ -10,9 +10,56 @@ print("Hola Mundo")
 
 # 3.Imprime tu nombre y edad en la misma línea utilizando la función print.
 
+nombre = "Pedro"
+edad = 23
+print("Soy " + nombre + " y tengo " + str(edad) + " años.") 
+
+# 4. Usa la función type() para imprimir el tipo de dato de una cadena de texto, un número entero y un número decimal.
+
+cadena_de_texto = "hola"
+numero = 5
+decimal = 14.2
+
+print(type(cadena_de_texto)) 
+print(type(numero)) 
+print(type(decimal)) 
+
+# 5. Escribe un comentario en varias líneas explicando qué son los tipos de datos en Python.
+
+"""
+Los tipos de datos en Python definen que valor guarda cada variable y que operaciones se pueden realizar con ella.
+Los más comunes son los numéricos, de texto, booleanos, de colección y especial.
+"""
+
+# 6. Imprime el resultado de concatenar dos cadenas de texto, por ejemplo: "Hola" y "Mundo".
+
+palabra1 = "Hola"
+palabra2 = "Mundo"
+print( palabra1 + " " + palabra2)
+
+# 7.  Crea una variable para almacenar tu nombre, otra para tu edad, e imprime ambas en la misma línea.
+
 print("Hola, qué tal?")
 print("Dime tu nombre: ")
 nombre = (input())
 print("Ahora dime tu edad: ")
 edad = int(input())
 print("Bien, entonces te llamas " + nombre + " y tienes " + str(edad) + " años.")
+
+# 8. Escribe un programa que solicite al usuario su nombre y lo imprima junto con un saludo.
+
+print("Hola Usuario, necesito saber cual es su nombre.")
+name = input()
+print("Bienvenido " + name + ", que tengas un buen día.") 
+
+# 9. Usa print() para mostrar el resultado de la suma de dos números enteros y el tipo de dato resultante.
+
+a = 9
+b = 1
+c = (a + b)
+
+print(a + b) 
+print(type(c))
+
+# 10.
+
