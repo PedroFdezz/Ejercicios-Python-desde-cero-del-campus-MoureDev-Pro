@@ -4,6 +4,14 @@ age: un número entero que represente tu edad.
 height: un número flotante que represente tu altura.
 Imprime cada variable en una línea separada.
 
+name = "Pedro"
+age = 23
+height = 1.75
+
+print(name)
+print(age)
+print(height)
+
 2. Convierte la variable edad de entero a cadena y concatenala con un texto que diga cuántos años tienes.
 
 3. Declara una variable booleana is_student que indique si eres estudiante o no. Usa True o False según corresponda e imprímela.
