@@ -14,6 +14,12 @@ print(height)
 
 2. Convierte la variable edad de entero a cadena y concatenala con un texto que diga cuántos años tienes.
 
+age = 23
+age : str = "23"
+
+print("Tengo ", age ," años.")
+print(type(age))
+
 3. Declara una variable booleana is_student que indique si eres estudiante o no. Usa True o False según corresponda e imprímela.
 
 4. Usa la función len() para calcular cuántos caracteres tiene tu nombre completo, almacenado en una variable.
