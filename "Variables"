@@ -21,6 +21,10 @@ print("Tengo ", age ," años.")
 print(type(age))
 
 3. Declara una variable booleana is_student que indique si eres estudiante o no. Usa True o False según corresponda e imprímela.
+boolean = True
+is_student = boolean 
+print("¿Eres estudiante?: ", is_student) 
+
 
 4. Usa la función len() para calcular cuántos caracteres tiene tu nombre completo, almacenado en una variable.
 
