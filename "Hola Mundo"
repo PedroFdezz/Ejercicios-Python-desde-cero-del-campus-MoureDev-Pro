@@ -61,5 +61,6 @@ c = (a + b)
 print(a + b) 
 print(type(c))
 
-# 10.
+# 10. Comenta el código del Ejercicio 9, y explica qué hace cada línea usando comentarios de una sola línea.
+
 
