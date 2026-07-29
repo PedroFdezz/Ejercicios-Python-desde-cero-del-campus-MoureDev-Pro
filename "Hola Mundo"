@@ -63,4 +63,11 @@ print(type(c))
 
 # 10. Comenta el código del Ejercicio 9, y explica qué hace cada línea usando comentarios de una sola línea.
 
+a = 9
+b = 1
+c = (a + b)  # estas 3 primeras lineas definen las variables que vamos a usar.
+
+print(a + b)  # este print indica la operación que queremos realizar.
+print(type(c))  # por último, este print indica el tipo de dato del resultado del print anterior.
+
 
