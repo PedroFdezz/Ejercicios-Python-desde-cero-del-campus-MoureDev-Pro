@@ -21,6 +21,7 @@ print("Tengo ", age ," años.")
 print(type(age))
 
 3. Declara una variable booleana is_student que indique si eres estudiante o no. Usa True o False según corresponda e imprímela.
+
 boolean = True
 is_student = boolean 
 print("¿Eres estudiante?: ", is_student) 
@@ -28,15 +29,30 @@ print("¿Eres estudiante?: ", is_student)
 
 4. Usa la función len() para calcular cuántos caracteres tiene tu nombre completo, almacenado en una variable.
 
+fullname = "Pedro Ramón Fernández Mateo"
+print(len(fullname))
+
 
 5. Declara tres variables en una sola línea que representen tu nombre, apellido y ciudad de origen. Luego, imprime estos valores.
+
+nombre, apellido, ciudad = "Pedro", "Fernández", "Barbate" 
+print(nombre)
+print(apellido)
+print(ciudad) 
 
 
 6. Usa la función input() para solicitar al usuario su color favorito y almacénalo en una variable color. Luego, imprime el valor ingresado.
 
+color = input("Dime tu color favorito: ")
+print("Tu color favorito es el", color) 
+
 
 7. Declara una variable fruit e inicialízala con un valor. Luego, cambia el valor de la fruta a otro diferente y vuelve a imprimirla.
 
+fruta = "pera"
+print(fruta)
+fruta = "manzana"
+print(fruta) 
 
 8. Convierte un número decimal, almacenado en la variable price, a un número entero y luego imprímelo.
 
