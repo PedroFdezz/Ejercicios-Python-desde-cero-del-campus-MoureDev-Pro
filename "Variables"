@@ -56,6 +56,9 @@ print(fruta)
 
 8. Convierte un número decimal, almacenado en la variable price, a un número entero y luego imprímelo.
 
+price = 1.99 
+print(int(price)) 
+
 
 9. Declara una variable llamada address_len y almacena en ella la cantidad de caracteres de una dirección usando la función len(). Imprime el resultado.
 
