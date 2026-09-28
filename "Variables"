@@ -62,5 +62,13 @@ print(int(price))
 
 9. Declara una variable llamada address_len y almacena en ella la cantidad de caracteres de una dirección usando la función len(). Imprime el resultado.
 
+address_len = "Calle Nuestra Señora de los Milagros 21"
+print(len(address_len)) 
+
 
 10. Usa un tipo de dato forzado para declarar una variable phone, asegurándote de que siempre será un número. Luego, cambia su valor a un número diferente y verifica el tipo de la variable con type().
+
+phone = int(1)
+print(type(phone))
+phone = int(2)
+print(type(phone)) 
